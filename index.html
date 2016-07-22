@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Untitled Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
 </head>
 <!--第一次練習-->
 <body>
@@ -24,6 +25,17 @@
 <div class="col-xs-12 col-sm-6 col-md-2">.col-xs-12 .col-sm-6 .col-md-4</div>
 <div class="col-xs-12 col-sm-6 col-md-2">.col-xs-12 .col-sm-6 .col-md-4</div>
 </div>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--第二次練習-->
 <body> 
 <div class="container">
@@ -44,8 +56,15 @@
 </div>
 </div>
       </body>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 <!--第三次練習-->
-<body>
+
 <div class="container">
 <table class="table table-condensed table-bordered">
 <thead>
@@ -77,63 +96,64 @@
         <td>緊湊</td>
       </tr>
     </tbody>
+    </table>
     </div> 
-</body>
-
+<hr>
+<br>
+<br>
 <!--第四次練習--> 
-<body>
-   <div class="container">
-     <h2>註冊表單</h2>
- <div class="row">
- <div class="col-xs-4">
- <label class="form-group">姓名</label>
-  <input type="text" class="form-control" placeholder="Name">
-  </div>
-     <div class="row">
- <div class="col-xs-4">
-<textarea cols="30" rows="8"></textarea>
-    </div>
-       <div class="container">
- <div class="row">
-      <label class="form-group">性別</label>
-<div class="container">
-<div class="checkbox">
-<lable>
-<input type="checkbox-inline">男
-</lable>
-</div>
-<div class="checkbox">
-<lable>    
-<input type="checkbox-inline">女
-</lable>
-</div>
-<div class="checkbox">
-<lable>
-<input type="checkbox-inline">其他
-</lable>
-</div>
-</div>
-<div class="row">
- <div class="col-xs-4">
-      <label class="form-group">電子郵件</label>
-  <input type="text" placeholder="Email">
-    </div>
-       <div class="row">
- <div class="col-xs-4">
-      <label class="form-group">密碼</label>
-  <input type="text" placeholder="Password">   
+ <div class="container">    
+<form>
+       <h2>註冊表單</h2>
+        <div class="form-group">
+          <div class="row" id="a">
+           <div class="col-md-3">
+            <label>姓名</label>
+            <input type="text" class="form-control" placeholder="Your Name" name="">
+              </div>
+            </div>
         </div>
-     </div>
-      </div>  
-            <div class="container">
- <div class="row">
-      <label class="form-group">興趣</label>
-          <input type="checkbox">閱讀
-        <input type="checkbox">運動
-            <input type="checkbox">睡覺
-            <input type="checkbox">學網頁
-</body>
-
-
+        <div class="form-group">
+            <label>性別</label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="gender" value="male"> 男
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female"> 女
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other"> 其他
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>電子郵件</label>
+            <input type="email" class="form-control" placeholder="Your Email" name="">
+        </div>
+        <div class="form-group">
+            <label>密碼</label>
+            <input type="password" class="form-control" placeholder="Password" name="">
+        </div>
+        <div class="form-group">
+            <label>興趣</label>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="" value="book">閱讀
+                </label>
+                <label>
+                    <input type="checkbox" name="" value="sport">運動
+                </label>
+                <label>
+                    <input type="checkbox" name="" value="sleep">睡覺
+                </label>
+                <label>
+                    <input type="checkbox" name="" value="web">學網頁
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default">送出</button>
+    </form>
+    </div>
 
 </html>
